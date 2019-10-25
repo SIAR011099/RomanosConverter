@@ -54,10 +54,6 @@ public class Main {
         String decenasRomano = getRomanNumeral(decenas, "X", "C", "L");
         String unidadesRomano = getRomanNumeral(unidades, "I", "X", "V");
 
-        // System.out.println(String.format("UnidadesMillar: %d\nCentenas: %d\nDecenas: %d\nUnidades: %d", unidadesMillar, centenas, decenas, unidades));
-        // System.out.println();
-        // System.out.println(String.format("En romano\nUnidadesMillar: %s\nCentenas: %s\nDecenas: %s\nUnidades: %s", unidadesMillarRomano, centenasRomano, decenasRomano, unidadesRomano));
-
         return unidadesMillarRomano + centenasRomano + decenasRomano + unidadesRomano;
     }
 
